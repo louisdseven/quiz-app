@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quick Trivia App</title>
+    <meta name="description" content="Test your backcountry, backpacking, and outdoor knowledge">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="datastore.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header role="banner">
+      <div class="col-4">
+        <img src="trivia-nerd.jpg" alt="Trivia Logo">
+      </div>
+      <div class="col-8">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="quizStart">
+          <h1>Welcome to my quick, 10-question trivia!</h1>
+        <img src="are-you-ready1.png" alt="Are you ready?">
+        <button type="button" class="startButton">START</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+    </main>
+  </body>
+</html>
